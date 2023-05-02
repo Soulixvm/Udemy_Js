@@ -1,3 +1,4 @@
+/*Coding Challenge #1*/
 // Data 1 true
 // let weightMark = 78;
 // let weightJhon = 92;
@@ -16,4 +17,12 @@ console.log(markHigherBM, MarkBmi, JhonBmi);
 
 function bmiCalculation(weight, height) {
     return weight / (height ** 2);
+}
+
+/*Coding Challenge #2*/
+
+if (MarkBmi > JhonBmi) {
+    console.log(`Marks BMI ${MarkBmi} is greater than jhons  one ${JhonBmi}`);
+} else {
+    console.log(`Jhons BMI ${JhonBmi} is greater than Marks one ${MarkBmi}`);
 }
