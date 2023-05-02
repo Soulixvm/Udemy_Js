@@ -63,3 +63,26 @@ console.log(jonas);
 let jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}`;
 console.log(jonasNew);
 */
+
+
+// !!!If statements!!!
+/*
+let age = 15;
+let isOldEnough = age >= 18;
+
+if (isOldEnough) {
+    console.log(`Sarah can start driving license 🚗`);
+} else {
+    let yearsLeft = 18 - age;
+    console.log(`Sarah is too young. wait another ${yearsLeft} years`);
+}
+
+let birthYear = 2021;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
+*/
