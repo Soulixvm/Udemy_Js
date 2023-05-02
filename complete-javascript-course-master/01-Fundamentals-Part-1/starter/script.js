@@ -48,3 +48,18 @@ console.log(typeof boolean_Type);
 console.log(typeof undefined_Type);
 console.log(typeof null_Type); //un bug fait que la console nous indique un objet comme type alors que ça devrait etre null tout comme undefined
 */
+
+
+// !!!String and Template Literals!!!
+/*
+let firstName = 'jonas';
+let job = 'teacher';
+let birthYear = 1991;
+let year = 2037;
+
+let jonas = "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job;
+console.log(jonas);
+
+let jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}`;
+console.log(jonasNew);
+*/
