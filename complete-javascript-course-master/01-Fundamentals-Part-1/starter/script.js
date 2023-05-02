@@ -143,3 +143,22 @@ console.log(century);
 //     console.log(`Number is not 23 or 7`);
 // };
 
+//!!!Logical operators!!!
+
+// let hasDriversLicense = true;
+// let hasGoodVision = true;
+
+// // if (hasDriversLicense && hasGoodVision) {
+// //     console.log(`Sarah is able to drive`);
+// // } else {
+// //     console.log(`Someone else should drive`);
+// // };
+
+// let isTired = true;
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//     console.log(`Sarah is able to drive`);
+// } else {
+//     console.log(`Someone else should drive`);
+// };
