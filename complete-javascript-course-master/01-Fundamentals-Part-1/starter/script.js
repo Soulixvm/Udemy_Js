@@ -5,7 +5,6 @@
 // console.log(40 + 8 + 23 + 10)
 */
 
-
 // !!!values & variables!!!
 /*
 // console.log('jonas');
@@ -16,7 +15,6 @@
 // console.log(firstName);
 // console.log(firstName);
 */
-
 
 // LECTURE: Values and Variables
 /*
@@ -33,7 +31,6 @@
 // console.log("population");
 */
 
-
 // !!!Data types!!!
 /*
 let number_Type = 23;
@@ -49,7 +46,6 @@ console.log(typeof undefined_Type);
 console.log(typeof null_Type); //un bug fait que la console nous indique un objet comme type alors que ça devrait etre null tout comme undefined
 */
 
-
 // !!!String and Template Literals!!!
 /*
 let firstName = 'jonas';
@@ -63,7 +59,6 @@ console.log(jonas);
 let jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}`;
 console.log(jonasNew);
 */
-
 
 // !!!If statements!!!
 /*
@@ -86,7 +81,6 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 */
-
 
 //!!! Type conversion and coercion!!!
 
@@ -162,3 +156,45 @@ console.log(century);
 // } else {
 //     console.log(`Someone else should drive`);
 // };
+
+//!!! switch statements!!!
+let day = "Monday";
+
+// switch ('Monday') {
+//     case 'Monday':
+//         console.log('Plan course structure');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'Tuesday':
+//         console.log('prepare theory videos');
+//         break;
+//     case 'Wednesday':
+//     case 'Thursday':
+//         console.log('write code examples');
+//         break;
+//     case 'Friday':
+//         console.log('Record Videos');
+//         break;
+//     case 'Saturday':
+//     case 'Sunday':
+//         console.log('Enjoy the weekend');
+//         break;
+
+//     default:
+//         console.log('Not a valid day');
+// }
+
+// if (day === "Monday") {
+//     console.log("Plan course structure");
+//     console.log("Go to coding meetup");
+// } else if (day === "Tuesday") {
+//     console.log("prepare theory videos");
+// } else if (day === "Wednesday" || day === "Thursday") {
+//     console.log("write code examples");
+// } else if (day === "Friday") {
+//     console.log("Record Videos");
+// } else if (day === "Saturday" || day === "Sunday") {
+//     console.log("Enjoy the weekend");
+// } else {
+//     console.log("Not a valid day");
+// }

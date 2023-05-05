@@ -36,39 +36,39 @@
 // let koalasFirstScore = 88;
 // let koalasSecondScore = 91;
 // let koalasThirdScore = 110;
-let dolphinsFirstScore = 400;
-let dolphinsSecondScore = 400;
-let dolphinsThirdScore = 400;
-let koalasFirstScore = 400;
-let koalasSecondScore = 400;
-let koalasThirdScore = 400;
+// let dolphinsFirstScore = 400;
+// let dolphinsSecondScore = 400;
+// let dolphinsThirdScore = 400;
+// let koalasFirstScore = 400;
+// let koalasSecondScore = 400;
+// let koalasThirdScore = 400;
 
-let dolphinsAvg = AvgScore(dolphinsFirstScore, dolphinsSecondScore, dolphinsThirdScore);
-let koalasAvg = AvgScore(koalasFirstScore, koalasSecondScore, koalasThirdScore);
+// let dolphinsAvg = AvgScore(dolphinsFirstScore, dolphinsSecondScore, dolphinsThirdScore);
+// let koalasAvg = AvgScore(koalasFirstScore, koalasSecondScore, koalasThirdScore);
 
-function AvgScore(n1, n2, n3) {
-    return (Number(n1) + Number(n2) + Number(n3)) / 3
-}
+// function AvgScore(n1, n2, n3) {
+//     return (Number(n1) + Number(n2) + Number(n3)) / 3
+// }
 
-//Bonus 1
+// //Bonus 1
 
-if (dolphinsAvg > koalasAvg && dolphinsAvg >= 100) {
-    console.log(`Dolphins wins!`);
-} else if (dolphinsAvg < koalasAvg && koalasAvg >= 100) {
-    console.log(`Koalas Wins!`);
-} else {
-    console.log(`Both Wins!`);
-}
+// if (dolphinsAvg > koalasAvg && dolphinsAvg >= 100) {
+//     console.log(`Dolphins wins!`);
+// } else if (dolphinsAvg < koalasAvg && koalasAvg >= 100) {
+//     console.log(`Koalas Wins!`);
+// } else {
+//     console.log(`Both Wins!`);
+// }
 
-//Bonus 2
+// //Bonus 2
 
-if (dolphinsAvg > koalasAvg && dolphinsAvg >= 100) {
-    console.log(`Dolphins wins!`);
-} else if (dolphinsAvg < koalasAvg && koalasAvg >= 100) {
-    console.log(`Koalas Wins!`);
-} else if (dolphinsAvg === koalasAvg && dolphinsAvg >= 100 && koalasAvg >= 100) {
-    console.log(`Both Wins!`);
-} else {
-    console.log(`No Team wins de trophy!`);
-}
+// if (dolphinsAvg > koalasAvg && dolphinsAvg >= 100) {
+//     console.log(`Dolphins wins!`);
+// } else if (dolphinsAvg < koalasAvg && koalasAvg >= 100) {
+//     console.log(`Koalas Wins!`);
+// } else if (dolphinsAvg === koalasAvg && dolphinsAvg >= 100 && koalasAvg >= 100) {
+//     console.log(`Both Wins!`);
+// } else {
+//     console.log(`No Team wins de trophy!`);
+// }
 
